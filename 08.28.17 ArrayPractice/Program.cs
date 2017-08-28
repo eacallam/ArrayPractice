@@ -86,7 +86,11 @@ namespace _08._28._17_ArrayPractice
             Console.WriteLine(numbers[numbers.Length-1]);
 
             //Declare and initialize a string array of first names.Choose a name to find and print the IndexOf.
-            string[] firstNames = { "Karen", "Ian", "Jackie", "Frank"};
+            string[] firstNames = new string[4];
+            firstNames[0] = "Karen";
+            firstNames[1] = "Ian";
+            firstNames[2] = "Jackie";
+            firstNames[3] = "Frank";
             Console.WriteLine(Array.IndexOf(firstNames,"Karen"));
 
             //Create an array of lucky numbers. Each number should repeat at least once.Choose a lucky number, find and print the last index of it.
