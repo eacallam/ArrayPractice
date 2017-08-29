@@ -100,13 +100,13 @@ namespace _08._28._17_ArrayPractice
             //Create an array of alphabet characters. Print the first index of the array.Now reverse the array and print the first index.
             char[] alphabetChars = { 'a', 'b', 'c', 'd', 'e' };
             Console.WriteLine(alphabetChars[0]);
-            Array.Reverse(alphabetChars);
+            Array.Reverse(alphabetChars); 
             Console.WriteLine(alphabetChars[0]);
 
             //Create an array of student names in random order. Order the students’ names using the sort method.Print the first and last students’ names.
-            string[] studentNames = { "Karen", "Taylor", "Erin", "Robert", "Walter" };
+            string[] studentNames = { "Karen", "erin", "Erin", "Robert", "Walter" }; //lowercase "e" will trump uppercase "E" as the first in the order but "E" wouldn't be trumped by "t"
             Console.WriteLine(studentNames[0]);
-            Array.Sort(studentNames);
+            Array.Sort(studentNames); 
             Console.WriteLine(studentNames[0]);
 
             //Ask 10 people for their favorite numbers and create an array of those numbers.Order the numbers using the sort method.Print the first and last numbers.
